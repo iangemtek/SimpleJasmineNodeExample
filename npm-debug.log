@@ -1,0 +1,83 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'xml2j' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'xml2j', null ]
+6 verbose cache add name=undefined spec="xml2j" args=["xml2j",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'xml2j',
+7 verbose parsed url   path: 'xml2j',
+7 verbose parsed url   href: 'xml2j' }
+8 silly lockFile bcacad44-xml2j xml2j
+9 verbose lock xml2j /home/ian_lin/.npm/bcacad44-xml2j.lock
+10 silly lockFile bcacad44-xml2j xml2j
+11 silly lockFile bcacad44-xml2j xml2j
+12 verbose addNamed [ 'xml2j', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 934638e6-xml2j xml2j@
+15 verbose lock xml2j@ /home/ian_lin/.npm/934638e6-xml2j.lock
+16 silly addNameRange { name: 'xml2j', range: '*', hasData: false }
+17 verbose request where is /xml2j
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 81811b9550b0a3a3
+20 verbose url raw /xml2j
+21 verbose url resolving [ 'https://registry.npmjs.org/', './xml2j' ]
+22 verbose url resolved https://registry.npmjs.org/xml2j
+23 verbose request where is https://registry.npmjs.org/xml2j
+24 info trying registry request attempt 1 at 10:48:18
+25 http GET https://registry.npmjs.org/xml2j
+26 http 404 https://registry.npmjs.org/xml2j
+27 verbose headers { date: 'Fri, 17 Apr 2015 02:48:18 GMT',
+27 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=0',
+27 verbose headers   'content-length': '51',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   'x-served-by': 'cache-nrt6126-NRT',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1429238898.454749,VS0,VE116',
+27 verbose headers   'keep-alive': 'timeout=10, max=50',
+27 verbose headers   connection: 'Keep-Alive' }
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Fri, 17 Apr 2015 02:48:18 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '51',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-nrt6126-NRT',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1429238898.454749,VS0,VE116',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 934638e6-xml2j xml2j@
+30 silly lockFile 934638e6-xml2j xml2j@
+31 error 404 404 Not Found: xml2j
+31 error 404
+31 error 404 'xml2j' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Linux 3.13.0-49-generic
+33 error command "/usr/bin/node" "/usr/bin/npm" "install" "xml2j"
+34 error cwd /home/ian_lin/Desktop/TestProjectDir/TestJasmineNode
+35 error node -v v0.10.37
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]
